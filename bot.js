@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client({ partials: ['MESSAGE', 'REACTION', 'CHANNEL'] });
-const prefix = '#';// برفكس
+const prefix = '-';// برفكس
 const guildModel = require('./models/guild');
 const ticketModel = require('./models/ticket');
 const fetch = require('discord-fetch-all');
